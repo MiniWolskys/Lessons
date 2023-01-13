@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def create_ray(origin,
+def create_ray(origine,
                direction) -> dict:
-    ray = {'Origine': np.array(origin), 'Direction': np.array(direction)}
+    ray = {'Origine': np.array(origine), 'Direction': np.array(direction)}
     return ray
 
 
