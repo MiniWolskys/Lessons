@@ -5,8 +5,9 @@ def create_Ray(O, D):
     Ray = {'Origine': np.array(O), 'Direction' : np.array(D)}
     return Ray 
 
-def create_sphere(C, r, a, d, s, cr, i):
-    sphere = {'Type': 'sphere', 'Centre': np.array(C), 'Rayon' : float(r), 'Ambient' : np.array(a), 'Diffuse' : np.array(d), 'Specular' : np.array(s), 'Reflexion': float(cr), 'Index': int(i)}
+
+def create_sphere(centre, rayon, ambient, diffuse, specular, reflexion, index):
+    sphere = {'Type': 'sphere', 'Centre': np.array(C), 'Rayon': float(r), 'Ambient': np.array(a), 'Diffuse': np.array(d), 'Specular': np.array(s), 'Reflexion': float(cr), 'Index': int(i)}
     return sphere
 
 def create_plane(P, n, a, d, s, cr, i):
