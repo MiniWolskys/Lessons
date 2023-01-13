@@ -96,7 +96,7 @@ def eclairage(obj,light,P) :
     Ks = obj['Specular']
     ls = Light ['specular']
     beta = materialShininess
-    c = normalize(C-P)
+    c = normalize(centre - P)
     
     cd = Ka*la+Kd*ld*max(np.dot(l,n),0)
     ct = cd+Ks*ls*max(np.dot(normalize(l+c),n), 0)**(beta/4)
@@ -153,9 +153,9 @@ materialShininess = 50
 
 img = np.zeros((h, w, 3)) # image vide : que du noir
 #Aspect ratio
-r = float(w) / h
+rayon = float(w) / h
 # coordonnées de l'écran : x0, y0, x1, y1.
-S = (-1., -1. / r , 1., 1. / r )
+S = (-1., -1. / rayon , 1., 1. / rayon)
 
 
 # Position et couleur de la source lumineuse
@@ -168,7 +168,7 @@ L = Light['position']
 
 
 col = np.array([0.2, 0.2, 0.7])  # couleur de base
-C = np.array([0., 0.1, 1.1])  # Coordonée du centre de la camera.
+centre = np.array([0., 0.1, 1.1])  # Coordonée du centre de la camera.
 Q = np.array([0,0.3,0])  # Orientation de la caméra
 img = np.zeros((h, w, 3)) # image vide : que du noir
 materialShininess = 50
@@ -199,8 +199,8 @@ for i, x in enumerate(np.linspace(S[0], S[2], w)):
     for j, y in enumerate(np.linspace(S[1], S[3], h)):
         col = np.zeros((3))
         Q[:2]=(x,y)
-        d = normalize(Q-C)
-        raytest = create_Ray(C, d)
+        d = normalize(Q - centre)
+        raytest = create_Ray(centre, d)
         traced = trace_ray(raytest)
         if traced : 
             obj, P, N, colRay=traced
