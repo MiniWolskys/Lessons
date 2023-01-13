@@ -8,7 +8,6 @@ def create_ray(origin,
     return ray
 
 
-
 def create_sphere(centre, rayon, ambient, diffuse, specular, reflexion, index):
     sphere = {'Type': 'sphere', 'Centre': np.array(centre), 'Rayon': float(rayon), 'Ambient': np.array(ambient), 'Diffuse': np.array(diffuse), 'Specular': np.array(specular), 'Reflexion': float(reflexion), 'Index': int(index)}
     return sphere
