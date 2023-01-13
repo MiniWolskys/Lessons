@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def create_ray(origin,
                direction) -> dict:
-    ray = {'Origin': np.array(origin), 'Direction': np.array(direction)}
+    ray = {'Origine': np.array(origin), 'Direction': np.array(direction)}
     return ray
 
 
