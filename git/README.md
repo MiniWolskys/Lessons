@@ -78,7 +78,7 @@ les modifications validés. Cela permet également de garder une branche main pr
 modifications doivent être testé et validé avant d'être rassemblés. Enfin, cela permet également a plusieurs personnes
 de travailler en parrallele sur plusieurs branches, sans risquer de modifier le travail de l'un ou de l'autre.
 
-# SCHEMAS A RAJOUTER
+![What is a branch](../assets/images/what_is_a_branch.png)
 
 ### Authentification
 
