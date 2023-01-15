@@ -44,7 +44,7 @@ puis les commit vers votre repertoire caché, avant de les pushs vers votre repe
 Le repertoire local est toujours sur la branche actuellement en cours d'utilisation. Les repertoires local distant et
 distant contiennent la liste de toutes les branches qui leurs on été passé (via un push ou un pull).
 
-![Schemas Fonctionnement Repertoire Git](./assets/images/Schemas_Git_Repertoires.png)
+![Schemas Fonctionnement Repertoire Git](../assets/images/Schemas_Git_Repertoires.png)
 
 Ici, on peut voir que le repertoire local et le local distant communique en envoyant des push (du local distant vers le
 distant) ou des fetchs (du distant vers le local distant), et que les repertoires local distant et local discute via des
@@ -62,7 +62,7 @@ serveur distant lors de votre push.
 Un commit est identifiable par un ID, contient les informations du créateur du dit commit, la date et l'heure du commit,
 ainsi que la liste des changements enregistrer sur ce commit.
 
-# SCHEMAS A RAJOUTER
+![Example de commits](../assets/images/what_is_a_commit.png)
 
 ### Branches
 
@@ -160,6 +160,6 @@ celle-ci validé, vous pourrez supprimer votre branche, et vous devriez voir vot
 main.
 
 Résultat attendu :
-![resultat_attendu.png](./assets/images/expected_exercice1.png)
+![resultat_attendu.png](../assets/images/expected_exercice1.png)
 
 ## Documentation
