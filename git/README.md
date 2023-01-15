@@ -160,6 +160,6 @@ celle-ci validé, vous pourrez supprimer votre branche, et vous devriez voir vot
 main.
 
 Résultat attendu :
-![resultat_attendu.png](../assets/images/expected_exercice1.png)
+![resultat_attendu.png](../assets/images/git_expected_exercice1.png)
 
 ## Documentation
