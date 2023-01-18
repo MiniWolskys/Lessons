@@ -3,7 +3,7 @@
 Ce repertoire ressence et réunis des ressources utilisé pour l'apprentissage de la programmation informatique.
 Il contient les différents projets réalisé lors de nos tests et durant notre parcours.
 
-Si vous ne savez pas comment cloner ce repertoire, referez vous au [README Git](). Vous pouvez également contacter
+Si vous ne savez pas comment cloner ce repertoire, referez vous au [README Git](./git/README.md). Vous pouvez également contacter
 @MiniWolskys ou toute autre personne présente sur ce repertoire pour vos questions et demande d'aide.
 
 Toutes les informations, documents, codes, projets et autres elements sur ce projet font partis du domaine public.
