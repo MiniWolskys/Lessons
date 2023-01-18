@@ -98,11 +98,37 @@ utilisez les lignes de commandes, mais vous pourrez également faire avec les ou
 
 Sur certaines machines, Git est pré-installé. Pour savoir si Git est installé, faites :  
 `git --version`
+dans un terminal
 
 Si vous n'avez pas d'erreur a cette ligne et qu'une version est affichée, vous pouvez passez à
 [l'installation de SSH](#SSH)
 
+Sinon, il vous faudra d'abord l'installer :
+
+- #### Windows :
+
+Télécharger l'installateur [Git For Windows](https://gitforwindows.org/), puis executez le. Suivez les étapes
+d'installation jusqu'au bout.
+
+- #### OSX :
+
+Télécharger et installer [Git For Mac](https://sourceforge.net/projects/git-osx-installer/).
+
+- #### Linux :
+
+Utiliser votre gestionnaire de packet pour installer git (apt-get, dnf...)  
+`sudo apt-get update`  
+`sudo apt-get install git`  
+
+- #### Tous :
+
+Une fois l'installation effectuée, dans le terminale de votre machine, tapez à nouveau la commande  
+`git --version`  
+et vérifiez que la commande vous renvoie bien une version.
+
 ### SSH
+
+
 
 ## Utilisation
 
